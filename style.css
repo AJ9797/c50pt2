@@ -1,0 +1,58 @@
+body{
+background-color:#808080;
+
+}
+h1{
+    color:crimson; 
+    margin:30px;
+    padding: 40px;
+}
+.header{
+    display:flex;
+    background-color: cyan;
+    justify-content:space-between;
+}
+.grid{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+
+}
+.footer{
+    display:flex;
+    justify-content: flex-end;
+}
+p{
+    text-align:center;
+}
+.header *{
+    border:solid;
+}
+.menu *{
+padding: 9px;
+
+display:flex;
+    justify-content: space-evenly;
+}
+a:link{
+color:red ;
+}
+a:visited{
+    color:blue; 
+}
+.game{
+    position:relative;
+}
+.game p{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    opacity:0;
+}
+.game:hover p{
+    opacity:1
+}
+.game:hover img{
+    opacity:0.33
+}
